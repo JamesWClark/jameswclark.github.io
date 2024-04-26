@@ -1,0 +1,39 @@
+[
+    {
+        "title" : "Rockhurst High School STEAM Blog",
+        "description" : "A blog for the Rockhurst High School STEAM program. The blog is built using Jekyll and hosted on GitHub Pages. The blog was updated by students and teachers in the program.",
+        "banner" : "banner-steam-blog.png",
+        "repo" : "https://github.com/RockhurstHS/STEAM-Blog ",
+        "gh-pages" : "http://rockhursths.github.io/STEAM-Blog/",
+        "tech" : ["Jekyll", "Ruby", "Liquid Templates", "HTML", "CSS", "JavaScript", "Markdown"],
+        "tags" : ["blog", "website"],
+        "feature" : "primary"
+    },
+    {
+        "title" : "Two Party Visualizer",
+        "description" : "A data visualization of word counts from perceptions of two different groups. The data is pulled from a Google Sheet and displayed using D3.js.",
+        "repo": "https://github.com/JamesWClark/Two-Party-Visualizer",
+        "gh-pages" : "https://jameswclark.github.io/Two-Party-Visualizer/",
+        "tech" : ["D3.js", "JavaScript", "HTML", "CSS", "Google Sheets API"],
+        "tags" : ["interactive data visualization", "interactive website", "web application"],
+        "feature" : "secondary"
+    }, 
+    {
+        "title" : "Freshman Retreat",
+        "description" : "A quiz game website for the Rockhurst High School Freshman Retreat. The was combines a multiple choice quiz game with YouTube embeds and uses React to pull data from a Google Sheet.",
+        "repo" : "https://github.com/RockhurstHS/Freshman-Retreat",
+        "gh-pages" : "https://rockhursths.github.io/Freshman-Retreat/",
+        "tech" : ["React", "JavaScript", "HTML", "CSS", "Google Sheets API", "YouTube"],
+        "tags" : ["quiz game", "interactive website", "web application" ],
+        "feature" : "secondary"
+    },
+    {
+        "title" : "Park Crossing - Paint Chips",
+        "repo": "  https://github.com/JamesWClark/ParkCrossing",
+        "gh-pages" : "https://jameswclark.github.io/ParkCrossing/",
+        "tech" : ["jQuery", "JavaScript", "HTML", "CSS", "Google Sheets API"],
+        "description" : "A website for the Park Crossing neighborhood in Kansas City. The website was built using jQuery and pulls data from a Google Sheet.",
+        "tags" : ["static data visualization", "informational website"],
+        "feature" : "tertiary"
+    }
+]

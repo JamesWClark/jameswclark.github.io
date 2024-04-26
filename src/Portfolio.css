@@ -1,0 +1,9 @@
+.primary {
+    border: solid var(--spacing) var(--primary-color);
+    padding: var(--spacing);
+    border-radius: var(--spacing);
+}
+
+.portfolio-feed .row > :not(:last-child) {
+    margin-right: var(--spacing);
+}
