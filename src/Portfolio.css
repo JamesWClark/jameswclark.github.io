@@ -1,9 +1,47 @@
-.primary {
-    border: solid var(--spacing) var(--primary-color);
+.feature {
     padding: var(--spacing);
     border-radius: var(--spacing);
+    overflow: hidden;
+    box-sizing: content-box;
 }
 
+.primary   { 
+    border: solid var(--spacing) var(--primary-color);
+    background-color: var(--light-primary-color);
+    max-height: 400px;
+}
+
+.secondary { 
+    border: solid var(--spacing) var(--secondary-color); 
+    background-color: var(--light-secondary-color);
+    max-height: 175px;
+}
+
+.tertiary  { 
+    border: solid var(--spacing) var(--tertiary-color); 
+    background-color: var(--light-tertiary-color);
+    height: 100%;
+    max-height: 175px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tertiary img { height: 100%; }
+
+.portfolio-feed .row { margin-bottom: var(--spacing); }
+
 .portfolio-feed .row > :not(:last-child) {
-    margin-right: var(--spacing);
+    padding-right: var(--spacing);
+}
+
+.tertiary img {
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    right: -100%;
+    bottom: -100%;
+    left: -100%;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
 }
