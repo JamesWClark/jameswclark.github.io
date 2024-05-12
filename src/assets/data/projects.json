@@ -55,6 +55,7 @@
         "feature" : "secondary"
     },
     {
+        "id" : "park-crossing-paint-chips",
         "title" : "Park Crossing - Paint Chips",
         "description" : "A website for the Park Crossing neighborhood in Kansas City. The website was built using jQuery and pulls data from a Google Sheet.",
         "repo": "  https://github.com/JamesWClark/ParkCrossing",
@@ -65,6 +66,7 @@
         "feature" : "tertiary"
     },
     {
+        "id" : "johnny-jos-pizzeria",
         "title" : "Johnny Jo's Pizzeria",
         "description" : "The original website I made for Johnny Jo's Pizzeria. I got a free pizza and a t-shirt for helping a friend out. The website was built using Bootstrap and hosted on GitHub Pages.",
         "repo" : "https://john-milone.github.io/Johnny-Jos-Pizzeria/",
@@ -75,6 +77,7 @@
         "feature" : "tertiary"
     },
     {
+        "id" : "the-pizzeria",
         "title" : "The Pizzeria",
         "repo" : "https://github.com/John-Milone/The-Pizzeria",
         "banner" : "chip-the-pizzeria.png",
@@ -85,6 +88,7 @@
         "feature" : "tertiary"
     },
     {
+        "id" : "pretty-print-copy",
         "title" : "PrettyPrintCopy",
         "description" : "A website to help students format their code for copy and paste. The website was built using jQuery and hosted on GitHub Pages.",
         "repo" : "https://github.com/JamesWClark/PrettyPrintCopy",
@@ -95,6 +99,7 @@
         "feature" : "tertiary"
     },
     {
+        "id" : "words-per-minute",
         "title" : "WordsPerMinute",
         "description" : "My own random character typing test. I wanted to integrate this into an LMS for Intro CS",
         "repo" : "https://github.com/JamesWClark/WordsPerMinute",
@@ -105,6 +110,7 @@
         "feature" : "secondary"
     },
     {
+        "id" : "email-strip",
         "name" : "EmailStrip",
         "description" : "A simple website to drop plain text anything and have all the emails stripped and moved to a clipboard, one per line",
         "repo" : "https://github.com/JamesWClark/EmailStrip",
@@ -115,6 +121,7 @@
         "feature" : "tertiary"
     },
     {
+        "id" : "8bin",
         "title" : "8Bin",
         "description" : "Binary digits animations",
         "repo" : "https://jameswclark.github.io/8Bin/",
@@ -125,6 +132,7 @@
         "feature" : "tertiary"
     },
     {
+        "id" : "ortholog-search-app",
         "name" : "Ortholog Search App",
         "description" : "I contributed to Chris Stillman’s open source project, for some genetic sequencing research at KU. In this project, we cut down runtime by taking O(n2) solution down to O(nlogn) by using maps instead of lists. The Heroku router drops a long-running request after 30 seconds, but the dyno behind it continues processing the request until completion. Adding a timeout ensures that the dyno itself drops the long-running request, creating capacity for other requests.",
         "repo" : "https://github.com/JamesWClark/OrthologSearchApp",
@@ -135,6 +143,7 @@
         "feature" : "secondary"
     },
     {
+        "id" : "rgb-sliders",
         "title" : "RGB Sliders",
         "description" : "A simple website to adjust the RGB values of a color",
         "repo" : "https://github.com/JamesWClark/RGBSliders",
