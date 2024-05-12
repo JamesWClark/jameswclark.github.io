@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import './Portfolio.css';
-import projects from './assets/data/projects.json';
+import projects from '../../assets/data/projects.json';
+import { Link } from 'react-router-dom';
 
 function Portfolio() {
 
-  const renderFeature = (feature, type) => {
+  const renderFeature = (feature, type, key) => {
     let colSize;
     switch (type) {
       case 'primary':   colSize = 12; break;
@@ -14,9 +15,13 @@ function Portfolio() {
     }
 
     return (
-      <div className={`col-lg-${colSize}`}>
+      <div className={`col-lg-${colSize}`} key={key}>
         <div className={`feature ${type}`}>
-          <img src={`/img/${feature.banner}`} alt={feature.title} />
+          <div className={`frame ${type}`}>
+            <Link to={`/feature/${feature.id}`}>
+              <img src={`/img/${feature.banner}`} alt={feature.title} />
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -36,7 +41,7 @@ function Portfolio() {
     <div className="portfolio-feed fluid-container">
       {groupedProjects.map((group, index) => (
         <div className="row" key={index}>
-          {group.map((project, i) => renderFeature(project, project.feature))}
+          {group.map((project, i) => renderFeature(project, project.feature, i))}
         </div>
       ))}
     </div>

@@ -1,5 +1,6 @@
 [
     {
+        "id" : "rhs-steam-blog",
         "title" : "Rockhurst High School STEAM Blog",
         "description" : "A blog for the Rockhurst High School STEAM program used to document our STEM accreditation. The blog is built using Jekyll and hosted on GitHub Pages. The blog was updated by students and teachers in the program.",
         "banner" : "banner-steam-blog.png",
@@ -10,6 +11,7 @@
         "feature" : "primary"
     },
     {
+        "id" : "layouts-and-pumpfakes",
         "title" : "Layouts and Pumpfakes",
         "description" : "I wanted to do 40 sites in 40 nights, but I only made it to 1. I made Pandora.",
         "banner" : "card-pandora.png",
@@ -20,6 +22,7 @@
         "feature" : "secondary"
     },
     {
+        "id" : "ace-processing",
         "title" : "Ace Processing",
         "description" : "A drag and drop for Procesing PDE projects to quickly review student submissions. The website uses the Ace Editor to allow users to write Processing code and see the results in real time. The website is built using processing.js and hosted on GitHub Pages.",
         "banner" : "card-ace-processing.png",
@@ -30,6 +33,7 @@
         "feature" : "secondary"
     },
     {
+        "id" : "two-party-visualizer",
         "title" : "Two Party Visualizer",
         "description" : "A data visualization of word counts from perceptions of two different groups. The data is pulled from a Google Sheet and displayed using D3.js.",
         "banner" : "card-two-party.png",
@@ -40,6 +44,7 @@
         "feature" : "secondary"
     }, 
     {
+        "id" : "freshman-retreat",
         "title" : "Freshman Retreat",
         "description" : "A quiz game website for the Rockhurst High School Freshman Retreat. The was combines a multiple choice quiz game with YouTube embeds and uses React to pull data from a Google Sheet.",
         "banner" : "card-freshman-retreat.png",

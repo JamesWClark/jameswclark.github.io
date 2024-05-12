@@ -1,0 +1,52 @@
+/* .portfolio-feed .row { margin-bottom: var(--spacing); }
+
+.portfolio-feed .row > :not(:last-child) {
+    padding-right: var(--spacing);
+} */
+
+.feature {
+    padding: calc(var(--spacing) * 0.4);
+    border-radius: var(--spacing);
+    margin: 40px auto 20px auto;
+    background-color: #444;
+}
+
+.feature .frame {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* height: 200px;  */
+
+    width: 100%;
+    height: inherit;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.feature .frame.primary   { max-height: 400px; }
+.feature .frame.secondary { max-height: 175px; }
+.feature .frame.tertiary  { max-height: 175px; }
+
+.feature .frame img { 
+    height: 100%;
+    max-width: initial;
+}
+
+.feature.primary { 
+    border: solid calc(var(--spacing) * 0.4) var(--primary-color);
+    background-color: var(--light-primary-color);
+}
+
+.feature.secondary { 
+    border: solid calc(var(--spacing) * 0.4) var(--secondary-color); 
+    background-color: var(--light-secondary-color);
+}
+
+.feature.tertiary { 
+    border: solid calc(var(--spacing) * 0.4) var(--tertiary-color); 
+    background-color: var(--light-tertiary-color);
+}

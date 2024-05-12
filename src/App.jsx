@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import Portfolio from './Portfolio'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Portfolio from './components/portfolio/Portfolio'
+import FeatureDetail from './components/portfolio/FeatureDetail';
 import './App.css'
 
 function App() {
@@ -7,7 +9,12 @@ function App() {
 
   return (
     <main>
-      <Portfolio />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Portfolio />} />
+          <Route path="/feature/:id" element={<FeatureDetail />} />
+        </Routes>
+      </Router>
     </main>
   )
 }
