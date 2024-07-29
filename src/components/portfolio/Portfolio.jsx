@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import './Portfolio.css';
-import projects from '../../assets/data/projects.json';
 import { Link } from 'react-router-dom';
+import './Portfolio.css';
 
-function Portfolio() {
+function Portfolio({ projects }) {
 
   const renderFeature = (feature, type, key) => {
     let colSize;

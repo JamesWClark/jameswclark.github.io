@@ -6,7 +6,8 @@
         "banner" : "banner-steam-blog.png",
         "repo" : "https://github.com/RockhurstHS/STEAM-Blog ",
         "gh-pages" : "http://rockhursths.github.io/STEAM-Blog/",
-        "tech" : ["Jekyll", "Ruby", "Liquid Templates", "HTML", "CSS", "JavaScript", "Markdown"],
+        "link" : "http://rockhursths.github.io/STEAM-Blog/",
+        "tech" : ["jekyll", "liquid", "markdown", "html", "css", "javascript"],
         "tags" : ["blog", "website"],
         "feature" : "primary"
     },
@@ -17,7 +18,7 @@
         "banner" : "card-pandora.png",
         "repo" : "https://github.com/JamesWClark/Layouts-and-Pump-Fakes",
         "gh-pages" : "https://jameswclark.github.io/Layouts-and-Pump-Fakes/",
-        "tech" : ["jQuery", "JavaScript", "HTML", "CSS"],
+        "tech" : ["jquery", "javascript", "html", "css"],
         "tags" : ["music player", "interactive website", "web application"],
         "feature" : "secondary"
     },
@@ -28,7 +29,7 @@
         "banner" : "card-ace-processing.png",
         "repo" : "https://github.com/JamesWClark/AceProcessing",
         "gh-pages" : "https://jameswclark.github.io/AceProcessing/",
-        "tech" : ["Ace Editor", "processing.js", "JavaScript", "HTML", "CSS"],
+        "tech" : ["ace editor", "processing.js", "javascript", "html", "css"],
         "tags" : ["interactive website", "web application"],
         "feature" : "secondary"
     },
@@ -39,7 +40,7 @@
         "banner" : "card-two-party.png",
         "repo": "https://github.com/JamesWClark/Two-Party-Visualizer",
         "gh-pages" : "https://jameswclark.github.io/Two-Party-Visualizer/",
-        "tech" : ["D3.js", "JavaScript", "HTML", "CSS", "Google Sheets API"],
+        "tech" : ["d3.js", "javascript", "html", "css", "google sheets api"],
         "tags" : ["interactive data visualization", "interactive website", "web application"],
         "feature" : "secondary"
     }, 
@@ -50,7 +51,7 @@
         "banner" : "card-freshman-retreat.png",
         "repo" : "https://github.com/RockhurstHS/Freshman-Retreat",
         "gh-pages" : "https://rockhursths.github.io/Freshman-Retreat/",
-        "tech" : ["React", "JavaScript", "HTML", "CSS", "Google Sheets API", "YouTube"],
+        "tech" : ["react", "javascript", "html", "css", "google sheets api", "youtube"],
         "tags" : ["quiz game", "interactive website", "web application" ],
         "feature" : "secondary"
     },
@@ -61,7 +62,7 @@
         "banner" : "chip-park-crossing.png",
         "repo": "  https://github.com/JamesWClark/ParkCrossing",
         "gh-pages" : "https://jameswclark.github.io/ParkCrossing/",
-        "tech" : ["jQuery", "JavaScript", "HTML", "CSS", "Google Sheets API"],
+        "tech" : ["jquery", "javascript", "html", "css", "google sheets api"],
         "tags" : ["static data visualization", "informational website"],
         "feature" : "tertiary"
     },
@@ -72,7 +73,7 @@
         "banner" : "chip-johnny-jos.png",
         "repo" : "https://john-milone.github.io/Johnny-Jos-Pizzeria/",
         "gh-pages" : "https://john-milone.github.io/Johnny-Jos-Pizzeria/",
-        "tech" : ["Bootstrap", "HTML", "CSS", "JavaScript"],
+        "tech" : ["bootstrap", "html", "css", "javascript"],
         "tags" : ["informational website"],
         "feature" : "tertiary"
     },
@@ -83,7 +84,7 @@
         "banner" : "chip-the-pizzeria.png",
         "repo" : "https://github.com/John-Milone/The-Pizzeria",
         "gh-pages" : "https://john-milone.github.io/The-Pizzeria/",
-        "tech" : ["Bootstrap", "HTML", "CSS", "JavaScript"],
+        "tech" : ["bootstrap", "html", "css", "javascript"],
         "tags" : ["informational website"],
         "feature" : "tertiary"
     },
@@ -94,7 +95,7 @@
         "banner" : "chip-pretty-print-copy.png",
         "repo" : "https://github.com/JamesWClark/PrettyPrintCopy",
         "gh-pages" : "https://jameswclark.github.io/PrettyPrintCopy/",
-        "tech" : ["Ace Editor", "highlight.js", "jQuery", "JavaScript", "HTML", "CSS"],
+        "tech" : ["ace editor", "highlight.js", "jquery", "javascript", "html", "css"],
         "tags" : ["interactive website", "web application"],
         "feature" : "tertiary"
     },
@@ -105,7 +106,7 @@
         "banner" : "card-words-per-minute.png",
         "repo" : "https://github.com/JamesWClark/WordsPerMinute",
         "gh-pages" : "http://jameswclark.github.io/WordsPerMinute/keyboard.html",
-        "tech" : ["JavaScript", "HTML", "CSS"],
+        "tech" : ["javascript", "html", "css"],
         "tags" : ["interactive website", "web application"],
         "feature" : "secondary"
     },
@@ -116,7 +117,7 @@
         "banner" : "chip-email-strip.png",
         "repo" : "https://github.com/JamesWClark/EmailStrip",
         "gh-pages" : "https://jameswclark.github.io/EmailStrip/",
-        "tech" : ["JavaScript", "HTML", "CSS"],
+        "tech" : ["javascript", "html", "css"],
         "tags" : ["interactive website", "web application"],
         "feature" : "tertiary"
     },
@@ -127,7 +128,7 @@
         "banner" : "chip-8bin.png",
         "repo" : "https://jameswclark.github.io/8Bin/",
         "gh-pages" : "https://jameswclark.github.io/8Bin/",
-        "tech" : ["JavaScript", "HTML", "CSS"],
+        "tech" : ["javascript", "html", "css"],
         "tags" : ["interactive website", "web application"],
         "feature" : "tertiary"
     },
@@ -138,7 +139,7 @@
         "banner" : "card-ortholog-search.png",
         "repo" : "https://github.com/JamesWClark/OrthologSearchApp",
         "gh-pages" : "https://jameswclark.github.io/OrthologSearchApp/",
-        "tech" : ["Papa Parse", "JavaScript", "HTML", "CSS"],
+        "tech" : ["papa parse", "javascript", "html", "css"],
         "tags" : ["interactive website", "web application"],
         "feature" : "secondary"
     },
@@ -149,8 +150,19 @@
         "banner" : "chip-rgb-sliders.png",
         "repo" : "https://github.com/JamesWClark/RGBSliders",
         "gh-pages" : "https://jameswclark.github.io/RGBSliders/",
-        "tech" : ["JavaScript", "HTML", "CSS"],
+        "tech" : ["javascript", "html", "css"],
         "tags" : ["interactive website"],
         "feature" : "tertiary"
+    },
+    {
+        "id" : "recall-app",
+        "title" : "Recall App",
+        "description" : "An aggragator and naive bayes classifier of public recall data.",
+        "banner" : "banner-recall-app.png",
+        "repo" : "https://github.com/CS560/Project",
+        "video" : "https://www.youtube.com/watch?v=mlaME5Yll4s",
+        "tech" : ["mahout", "naive bayes", "machine learning", "solr", "lucene search", "web scraping", "web services", "api", "glassfish", "android", "java"],
+        "tags" : ["mobile application", "machine learning", "data aggregation"],
+        "feature" : "primary"
     }
 ]
